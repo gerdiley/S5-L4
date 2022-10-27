@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 141, 219);
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+nav {
+    margin-bottom: 200px;
+}
+
+button {
+    color: white;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.2em;
+    padding: 7px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: purple;
+    box-shadow: 4px 4px 4px rgb(59, 93, 245);
+}
+
+
+#menu {
+    background-color: rgb(136, 8, 175);
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+#menu:focus {
+    background-color: rgb(155, 82, 177);
+}
+
+#opzioniMenu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#opzioniMenu li{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    background-color: rgb(189, 75, 189);
+}
+
+#opzioniMenu li:hover{
+    background-color: rgb(219, 141, 219);
+}
+
+#opzioniMenu li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.lista {
+    width: fit-content;
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.checked {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
